@@ -1,0 +1,12 @@
+17:05:54,292  INFO devpinoyLogger<strong>{1}</strong>:16 - loginTC01 started execution 
+17:05:54,311  INFO devpinoyLogger<strong>{1}</strong>:32 - I m ain open browser
+17:06:53,701  INFO devpinoyLogger<strong>{1}</strong>:39 - Open chrome browser
+17:06:53,703  INFO devpinoyLogger<strong>{1}</strong>:43 - Open url=https://opensource-demo.orangehrmlive.com/
+17:07:40,831  INFO devpinoyLogger<strong>{1}</strong>:52 - enter_userName =Admin
+17:07:41,251  INFO devpinoyLogger<strong>{1}</strong>:64 - enter_password =admin123
+17:08:14,708  INFO devpinoyLogger<strong>{1}</strong>:46 - loginTC01 is executed successfully
+17:08:15,285 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+17:08:15,301 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+17:08:15,331 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+17:08:15,344 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+17:08:15,348 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/brahma/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
