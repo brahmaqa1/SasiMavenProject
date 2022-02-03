@@ -11,7 +11,7 @@ public class LoginTC2 extends TestBase
 	@Test
 	public void loginTC01()
 	{
-		
+		// added some comment
 		extentLog_Pass("loginTC01 started execution ");
 		log.info("loginTC01 started execution ");
 //	public static void main(String[] args) {
