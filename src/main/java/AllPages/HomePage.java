@@ -210,6 +210,7 @@ public class HomePage extends TestBase
 
 			deleteBtn.click();
 		 OKBtnDeleteRecords.click();
+			log.info("in TRY homepage");
 
 			
 			
