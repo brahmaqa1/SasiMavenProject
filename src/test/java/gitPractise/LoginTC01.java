@@ -11,7 +11,7 @@ public class LoginTC01 extends TestBase
 	@Test
 	public void loginTC01()
 	{
-		//added cooment by brahma Feb 4 2022
+		
 		extentLog_Pass("loginTC01 started execution ");
 		log.info("loginTC01 started execution ");
 //	public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class LoginTC01 extends TestBase
 		//  2nd way use inheritance call  openBrowser
 		extentLog_Pass("Step1:open browser");
 		WebDriver driver = openBrowser();
-		
+		//added cooment by brahma Feb 4 2022
 //		//  enter user
 //		LoginPage  loginPage= new LoginPage(driver);		
 //		loginPage.enter_userName("Admin");		
