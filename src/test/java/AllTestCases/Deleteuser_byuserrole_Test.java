@@ -32,6 +32,7 @@ public class Deleteuser_byuserrole_Test  extends TestBase{
 	
         extentLog_Pass("on homepage class mouse_over_admintab ");
    	HomePage homePage= new HomePage(driver);
+	log.info("in homepage class");
 
 		 homePage.mouse_Over_AdminTab();
 		 

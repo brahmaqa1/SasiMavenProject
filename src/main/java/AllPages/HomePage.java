@@ -202,6 +202,8 @@ public class HomePage extends TestBase
         //xpaath= //*[@id="resultTable"]/tbody/tr/td[text()='Admin']/parent::tr/td[1]
 		String myxpath= " //*[@id=\"resultTable\"]/tbody/tr/td[text()='"+UserRole+"']/parent::tr/td[1]";
 		System.out.println("myxpath="+myxpath);
+		log.info("in allpages homepage");
+
 		try
 		{
 			driver.findElement(By.xpath(myxpath)).click();	
