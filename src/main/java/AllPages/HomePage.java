@@ -188,7 +188,7 @@ public class HomePage extends TestBase
 		int cnt=	driver.findElements(By.xpath(userXpath)).size();// 0 or 1
 			if(cnt ==0 )
 			{
-				System.out.println("Pass.User=" + user+   " is not exist in table ");				
+				System.out.println("Pass.User=" + user+   " is not exist in the table ");				
 			}
 			else
 			{
