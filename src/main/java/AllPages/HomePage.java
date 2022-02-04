@@ -196,6 +196,32 @@ public class HomePage extends TestBase
 			}	
 	}
 	
+
+	public void deleteCheckBoxyBasedOnUserRole(String UserRole)
+	{
+        //xpaath= //*[@id="resultTable"]/tbody/tr/td[text()='Admin']/parent::tr/td[1]
+		String myxpath= " //*[@id=\"resultTable\"]/tbody/tr/td[text()='"+UserRole+"']/parent::tr/td[1]";
+		System.out.println("myxpath="+myxpath);
+		try
+		{
+			driver.findElement(By.xpath(myxpath)).click();	
+
+			deleteBtn.click();
+		 OKBtnDeleteRecords.click();
+
+			
+			
+			
+		}
+		catch (Exception e) {
+			System.out.println("Activity Code=" +UserRole +"  is not found.plz check ur data or xpath="+myxpath);
+			System.out.println("exception details="+e);
+		}
+	}
+	
+	
+	
+	
 	
 	// HW:   is_User_Exist_UseraTable()
 	
